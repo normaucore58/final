@@ -158,6 +158,7 @@ a {
 .intro {
   padding-top: 180px;
   height: 520px;
+  background-image: url("../images/intro-bg.png");
 }
 
 .intro h1, .intro p {
