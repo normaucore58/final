@@ -1,0 +1,54 @@
+html {
+  font-size: $base-font;
+}
+
+body {
+  // Shorthand
+  // font: normal normal 300 #{type-scale(0)} $sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: type-scale(0);
+  line-height: $line-height;
+  font-family: $sans-serif;
+  color: #333300;
+
+  @media screen and (min-width: 600px){
+    font-size: type-scale(0);
+  }
+}
+
+/* @SECTION HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: type-scale(4);
+}
+
+h2 {
+  font-size: type-scale(3);
+}
+
+h3 {
+  font-size: type-scale(2);
+}
+
+h4 {
+  font-size: type-scale(1);
+}
+
+.intro {
+  h1 {
+    font-size: 2rem;
+    font-family: $serif;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}

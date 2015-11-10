@@ -35,6 +35,59 @@
  * @param {$exponent} exponent/power number
  */
 /* VARIABLES */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333300;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+/* @SECTION HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 6.85353em;
+}
+
+h2 {
+  font-size: 4.2358em;
+}
+
+h3 {
+  font-size: 2.61792em;
+}
+
+h4 {
+  font-size: 1.618em;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro p {
+  text-align: center;
+}
+
 /**
  * Media Queries
  *
@@ -45,5 +98,10 @@
  *
  */
 /* Layout */
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=style.css.map */
