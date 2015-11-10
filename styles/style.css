@@ -116,9 +116,9 @@ a {
   text-transform: uppercase;
 }
 
-.header li {
+.mainnav a, .subnav a {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .promotion a {
@@ -264,13 +264,13 @@ a {
 .logo {
   display: block;
   float: left;
-  margin: 15px 80px auto 0;
+  margin: 10px 80px auto 0;
 }
 
 .mainnav {
   display: block;
   float: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .mainnav li {
@@ -288,7 +288,7 @@ a {
 .subnav {
   display: block;
   float: right;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .subnav li {

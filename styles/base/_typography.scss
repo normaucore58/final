@@ -67,9 +67,11 @@ a {
   }
 }
 
-.header li {
+.mainnav, .subnav {
+  a {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  }
 }
 
 .promotion a {
