@@ -6,3 +6,21 @@ $sans-serif: 'Quicksand', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+.intro, .header, .nav-01, .nav-02, .info-home, .info-shop, .info-philosophy, .info-blog, .info-contact, .footer {
+  width: 100%;
+}
+
+.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
+  padding-top: 50px;
+}
+
+.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+li {
+    list-style: none;
+}

@@ -1,3 +1,16 @@
 .info-blog {
   background-color: #ff3333;
 }
+
+.blog-nav {
+    display: table;
+    margin:0 auto;
+}
+
+.blog-nav li {
+    display: table-cell;
+}
+
+.blog-nav li + li {
+    padding-left: 20px;
+}

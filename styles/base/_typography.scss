@@ -40,7 +40,20 @@ h4 {
   font-size: type-scale(1);
 }
 
-a {text-decoration: none;}
+.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
+  h2 {
+    font-size: 1.5rem;
+    font-family: $serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #333300;
+}
 
 .intro, .info-home {
   h1 {
@@ -54,20 +67,25 @@ a {text-decoration: none;}
   }
 }
 
-.header {
-  li {text-transform: uppercase;}
+.header li {
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
-.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
-  h2 {
-    font-size: 1.5rem;
-    font-family: $serif;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
+.promotion a {
+  color: #ffffff;
+  font-family: $serif;
+ }
+
+.logo a {
+  color: #ff9900;
+  font-family: $sans-serif;
+  font-weight: 700;
+  text-transform: lowercase;
 }
 
 .phil-column-02 h2 {
   font-family: $sans-serif;
+  text-align: inherit;
   text-transform: none;
 }
