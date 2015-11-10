@@ -40,8 +40,34 @@ h4 {
   font-size: type-scale(1);
 }
 
-.intro h1 {
+a {text-decoration: none;}
+
+.intro, .info-home {
+  h1 {
     font-size: 1.5rem;
     font-family: $serif;
     font-weight: 400;
+  }
+
+  li {
+    text-transform: uppercase;
+  }
+}
+
+.header {
+  li {text-transform: uppercase;}
+}
+
+.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
+  h2 {
+    font-size: 1.5rem;
+    font-family: $serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.phil-column-02 h2 {
+  font-family: $sans-serif;
+  text-transform: none;
 }

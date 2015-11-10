@@ -1,4 +1,5 @@
 .intro {
+  width: 100%;
   margin: 180px auto;
   //background: url(intro-bg.jpg) center center / cover no-repeat fixed;
 }
@@ -11,10 +12,21 @@
 }
 
 .lang-switch {
-  text-align: center;
+  text-align:center;
 }
 
-.lang-switch p {
-  display: block;
+.lang-switch a {
+  text-decoration: none;
+}
+
+.lang-switch li {
   float: left;
+  list-style: none;
+}
+
+.lang-switch ul {
+  display:inline-block;
+}
+.lang-switch li + li {
+  margin-left:20px;
 }

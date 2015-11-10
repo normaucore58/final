@@ -1,0 +1,114 @@
+/* HEADER */
+.header {
+  width: 100%;
+}
+
+/* NAVGATION-01 */
+.nav-01 {
+  background-color: #333300;
+  opacity: 0.4;
+  height: 30px;
+}
+
+.promotion {
+  display: block;
+  float: left;
+}
+
+.subnav-social {
+  display: block;
+  float: right;
+}
+
+.subnav-social a {
+  text-decoration: none;
+}
+
+.subnav-social li {
+  float: left;
+  list-style: none;
+}
+
+.subnav-social ul {
+  display:inline-block;
+}
+.subnav-social li + li {
+  margin-left:5px;
+}
+
+.facebook {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-facebook.png");
+  background-size: 20px auto;
+}
+
+.twitter {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-twitter.png");
+  background-size: 20px auto;
+}
+
+.pinterest {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-pinterest.png");
+  background-size: 20px auto;
+}
+
+/* NAVIGATION-02 */
+.nav-02 {
+  height: 50px;
+  border-bottom: 1px solid #333300;
+}
+.mainnav {
+  display: block;
+  float: left;
+}
+
+.mainnav li {
+  float: left;
+  list-style: none;
+}
+
+.mainnav ul {
+  display: inline-block;
+}
+
+.mainnav li + li {
+  margin-left: 20px;
+}
+
+.subnav {
+  display: block;
+  float: right;
+}
+
+.subnav li {
+  float: left;
+  list-style: none;
+}
+
+.subnav ul {
+  display: inline-block;
+}
+
+.subnav li + li {
+  margin-left: 20px;
+}
+
+.search {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-serach.png");
+  background-size: 15px auto;
+}

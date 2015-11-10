@@ -77,10 +77,34 @@ h4 {
   font-size: 1.618em;
 }
 
-.intro h1 {
+a {
+  text-decoration: none;
+}
+
+.intro h1, .info-home h1 {
   font-size: 1.5rem;
   font-family: "Libre+Baskerville", Georgia, Palatino, serif;
   font-weight: 400;
+}
+
+.intro li, .info-home li {
+  text-transform: uppercase;
+}
+
+.header li {
+  text-transform: uppercase;
+}
+
+.info-home h2, .info-shop h2, .info-philosophy h2, .info-blog h2, .info-contact h2 {
+  font-size: 1.5rem;
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.phil-column-02 h2 {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: none;
 }
 
 /**
@@ -100,6 +124,7 @@ h4 {
 }
 
 .intro {
+  width: 100%;
   margin: 180px auto;
 }
 
@@ -112,9 +137,163 @@ h4 {
   text-align: center;
 }
 
-.lang-switch p {
+.lang-switch a {
+  text-decoration: none;
+}
+
+.lang-switch li {
+  float: left;
+  list-style: none;
+}
+
+.lang-switch ul {
+  display: inline-block;
+}
+
+.lang-switch li + li {
+  margin-left: 20px;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+}
+
+/* NAVGATION-01 */
+.nav-01 {
+  background-color: #333300;
+  opacity: 0.4;
+  height: 30px;
+}
+
+.promotion {
   display: block;
   float: left;
+}
+
+.subnav-social {
+  display: block;
+  float: right;
+}
+
+.subnav-social a {
+  text-decoration: none;
+}
+
+.subnav-social li {
+  float: left;
+  list-style: none;
+}
+
+.subnav-social ul {
+  display: inline-block;
+}
+
+.subnav-social li + li {
+  margin-left: 5px;
+}
+
+.facebook {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-facebook.png");
+  background-size: 20px auto;
+}
+
+.twitter {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-twitter.png");
+  background-size: 20px auto;
+}
+
+.pinterest {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-pinterest.png");
+  background-size: 20px auto;
+}
+
+/* NAVIGATION-02 */
+.nav-02 {
+  height: 50px;
+  border-bottom: 1px solid #333300;
+}
+
+.mainnav {
+  display: block;
+  float: left;
+}
+
+.mainnav li {
+  float: left;
+  list-style: none;
+}
+
+.mainnav ul {
+  display: inline-block;
+}
+
+.mainnav li + li {
+  margin-left: 20px;
+}
+
+.subnav {
+  display: block;
+  float: right;
+}
+
+.subnav li {
+  float: left;
+  list-style: none;
+}
+
+.subnav ul {
+  display: inline-block;
+}
+
+.subnav li + li {
+  margin-left: 20px;
+}
+
+.search {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: -9000px;
+  background-image: url("../images/icon-serach.png");
+  background-size: 15px auto;
+}
+
+.info-home {
+  width: 100%;
+  background: #ffcccc;
+}
+
+.info-shop {
+  background-color: #ff9999;
+}
+
+.info-philosophy {
+  background-color: #ff6666;
+}
+
+.info-blog {
+  background-color: #ff3333;
+}
+
+.info-contact {
+  background-color: #ff6666;
+}
+
+.footer {
+  background-color: #ff9999;
 }
 
 /*# sourceMappingURL=style.css.map */
