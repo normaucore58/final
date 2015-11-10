@@ -64,13 +64,13 @@ a {
 
   li {
     text-transform: uppercase;
+    font-size: 0.6rem;
   }
 }
 
-.mainnav, .subnav {
-  a {
-  text-transform: uppercase;
-  font-size: 0.6rem;
+.header {
+  a, li {
+    font-size: 0.7rem;
   }
 }
 
@@ -79,11 +79,19 @@ a {
   font-family: $serif;
  }
 
-.logo a {
-  color: #ff9900;
-  font-family: $sans-serif;
-  font-weight: 700;
-  text-transform: lowercase;
+ .logo a {
+   color: #ff9900;
+   font-family: $sans-serif;
+   font-size: 1rem;
+   font-weight: 700;
+   text-transform: lowercase;
+ }
+
+.mainnav, .subnav {
+  a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  }
 }
 
 .phil-column-02 h2 {

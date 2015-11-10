@@ -114,11 +114,11 @@ a {
 
 .intro li, .info-home li {
   text-transform: uppercase;
+  font-size: 0.6rem;
 }
 
-.mainnav a, .subnav a {
-  text-transform: uppercase;
-  font-size: 0.6rem;
+.header a, .header li {
+  font-size: 0.7rem;
 }
 
 .promotion a {
@@ -129,8 +129,14 @@ a {
 .logo a {
   color: #ff9900;
   font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: lowercase;
+}
+
+.mainnav a, .subnav a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 
 .phil-column-02 h2 {
@@ -209,6 +215,7 @@ a {
 .subnav-social {
   display: block;
   float: right;
+  margin: 5px auto;
 }
 
 .subnav-social a {
@@ -271,7 +278,7 @@ a {
 .mainnav {
   display: block;
   float: left;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .mainnav li {
@@ -289,7 +296,7 @@ a {
 .subnav {
   display: block;
   float: right;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .subnav li {
