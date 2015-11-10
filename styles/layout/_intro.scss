@@ -4,8 +4,17 @@
 }
 
 .intro {
-
-  h1 {
+  h1, p {
     margin-bottom: 30px;
+    text-align: center;
   }
+}
+
+.lang-switch {
+  text-align: center;
+}
+
+.lang-switch p {
+  display: block;
+  float: left;
 }

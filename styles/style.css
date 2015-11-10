@@ -81,11 +81,6 @@ h4 {
   font-size: 1.5rem;
   font-family: "Libre+Baskerville", Georgia, Palatino, serif;
   font-weight: 400;
-  text-align: center;
-}
-
-.intro p {
-  text-align: center;
 }
 
 /**
@@ -108,8 +103,18 @@ h4 {
   margin: 180px auto;
 }
 
-.intro h1 {
+.intro h1, .intro p {
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.lang-switch {
+  text-align: center;
+}
+
+.lang-switch p {
+  display: block;
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */
