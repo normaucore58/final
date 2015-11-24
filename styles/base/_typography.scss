@@ -87,6 +87,13 @@ a {
    text-transform: lowercase;
  }
 
+ .logo-white a {
+   font-family: $sans-serif;
+   font-size: 1rem;
+   font-weight: 700;
+   text-transform: lowercase;
+ }
+
 .mainnav, .subnav {
   a {
   text-transform: uppercase;
