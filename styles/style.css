@@ -35,10 +35,6 @@
  * @param {$exponent} exponent/power number
  */
 /* VARIABLES */
-.intro, .header, .nav-01, .nav-02, .info-home, .info-shop, .info-philosophy, .info-blog, .info-contact, .footer {
-  width: 100%;
-}
-
 .info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
   padding: 50px 0;
 }
@@ -213,6 +209,7 @@ a {
 
 .fixed {
   position: fixed;
+  width: 100%;
 }
 
 .nav-01, .nav-02 {
@@ -343,7 +340,6 @@ a {
 }
 
 .info-home {
-  width: 100%;
   height: 600px;
   padding-top: 180px;
   background: url("../images/home-bg.png") no-repeat center center;
@@ -352,12 +348,11 @@ a {
 
 .shop-box {
   display: inline-block;
-  width: 300px;
-  height: 120px;
+  float: left;
 }
 
-.shop-row-01 {
-  margin-bottom: 20px;
+.shop-row-01, .shop-row-02 {
+  width: 100%;
 }
 
 .info-philosophy {
