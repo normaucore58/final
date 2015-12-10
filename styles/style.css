@@ -347,7 +347,6 @@ a {
 }
 
 .shop-row-01, .shop-row-02 {
-  padding: 2em, 2em;
   height: 100%;
 }
 
@@ -365,7 +364,6 @@ a {
 }
 
 .shop-box {
-  height: 200px;
   width: 100%;
 }
 
