@@ -1,5 +1,12 @@
+// em は親要素の大きさが基準になる
+// rem は常に root 要素（つまり html 要素）の大きさを基準にする
+// html 要素のフォントサイズを変更しない限り、ブラウザーのデフォルトである「1rem=16px」という値は一定
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
 html {
-  font-size: $base-font;
+  font-size: $base-font; /* $base-font: 16px; (=1rem) */
 }
 
 body {
@@ -13,10 +20,18 @@ body {
   font-family: $sans-serif;
   color: #333300;
 
-  @media screen and (min-width: 600px){
-    font-size: type-scale(0);
-  }
+  // @media screen and (min-width: 600px){
+  //   font-size: type-scale(0);
+  // }
 }
+
+// @media screen and (min-width : 768px){
+//     html{ font-size : 87.5%;}
+// }
+//
+// @media screen and (min-width : 1024px) {
+//     html{ font-size : 100%;}
+// }
 
 /* @SECTION HEADINGS */
 h1, h2, h3, h4, h5, h6 {
@@ -24,55 +39,42 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h1 {
-  font-size: type-scale(4);
-}
+// h1 {
+//   font-size: type-scale(4);
+// }
+//
+// h2 {
+//   font-size: type-scale(3);
+// }
+//
+// h3 {
+//   font-size: type-scale(2);
+// }
+//
+// h4 {
+//   font-size: type-scale(1);
+// }
 
-h2 {
-  font-size: type-scale(3);
-}
-
-h3 {
-  font-size: type-scale(2);
-}
-
-h4 {
-  font-size: type-scale(1);
-}
-
-.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
-  h2 {
-    font-size: 1.5rem;
-    font-family: $serif;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: #333300;
-}
-
+/* INTRO SECTION */
 .intro, .info-home {
   h1 {
-    font-size: 1.5rem;
+    font-size: type-scale(1);
     font-family: $serif;
     font-weight: 400;
     font-style: italic;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: type-scale(0);
   }
 
   li {
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 }
 
+/* HEADER SECTION */
 .header {
   a, li {
     font-size: 0.7rem;
@@ -104,6 +106,21 @@ a {
   text-transform: uppercase;
   font-size: 0.7rem;
   }
+}
+
+.info-shop, .info-philosophy, .info-blog, .info-contact {
+  h2 {
+    font-size: 1.5rem;
+    font-family: $serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #333300;
 }
 
 .phil-column-02 h2 {

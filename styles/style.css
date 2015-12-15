@@ -35,12 +35,9 @@
  * @param {$exponent} exponent/power number
  */
 /* VARIABLES */
-.info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
-  padding: 50px 0;
-}
-
-.info-home h2, .info-shop h2, .info-philosophy h2, .info-blog h2, .info-contact h2 {
-  margin-bottom: 50px;
+/* 1rem = 16px */
+.info-shop {
+  margin: 50px auto;
 }
 
 li {
@@ -48,7 +45,8 @@ li {
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
+  /* $base-font: 16px; (=1rem) */
 }
 
 body {
@@ -61,63 +59,30 @@ body {
   color: #333300;
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    font-size: 1em;
-  }
-}
-
 /* @SECTION HEADINGS */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Libre+Baskerville", Georgia, Palatino, serif;
   font-weight: 400;
 }
 
-h1 {
-  font-size: 6.85353em;
-}
-
-h2 {
-  font-size: 4.2358em;
-}
-
-h3 {
-  font-size: 2.61792em;
-}
-
-h4 {
-  font-size: 1.618em;
-}
-
-.info-home h2, .info-shop h2, .info-philosophy h2, .info-blog h2, .info-contact h2 {
-  font-size: 1.5rem;
-  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-a {
-  text-decoration: none;
-  color: #333300;
-}
-
+/* INTRO SECTION */
 .intro h1, .info-home h1 {
-  font-size: 1.5rem;
+  font-size: 1.618em;
   font-family: "Libre+Baskerville", Georgia, Palatino, serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .intro p, .info-home p {
-  font-size: 0.8rem;
+  font-size: 1em;
 }
 
 .intro li, .info-home li {
   text-transform: uppercase;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
+/* HEADER SECTION */
 .header a, .header li {
   font-size: 0.7rem;
 }
@@ -145,6 +110,19 @@ a {
 .mainnav a, .subnav a {
   text-transform: uppercase;
   font-size: 0.7rem;
+}
+
+.info-shop h2, .info-philosophy h2, .info-blog h2, .info-contact h2 {
+  font-size: 1.5rem;
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #333300;
 }
 
 .phil-column-02 h2 {
@@ -421,7 +399,7 @@ a {
   background-size: 15px auto;
 }
 
-.info-home {
+.home-bg {
   height: 600px;
   padding-top: 180px;
   background: url("../images/home-bg.png") no-repeat center center;
