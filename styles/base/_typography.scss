@@ -19,6 +19,11 @@ body {
   line-height: $line-height;
   color: #333300;
 
+  a {
+    text-decoration: none;
+    color: #333300;
+  }
+
   // @media screen and (min-width: 600px){
   //   font-size: type-scale(0);
   // }
@@ -32,7 +37,7 @@ body {
 //     html{ font-size : 100%;}
 // }
 
-/* @SECTION HEADINGS */
+/* HEADINGS */
 h1, h2 {
   font-family: $serif;
   font-weight: 400;
@@ -122,13 +127,12 @@ h2 {
   }
 }
 
-a {
-  text-decoration: none;
-  color: #333300;
+.shop-box a {
+  font-family: $sans-serif;
 }
 
-.phil-column-02 h2 {
-  font-family: $sans-serif;
-  text-align: inherit;
-  text-transform: none;
-}
+// .phil-column-02 h2 {
+//   font-family: $sans-serif;
+//   text-align: inherit;
+//   text-transform: none;
+// }

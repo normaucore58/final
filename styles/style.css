@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Base */
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
@@ -11,7 +12,7 @@
 
 /* VARIABLES */
 /* 1rem = 16px */
-.info-shop {
+.info-shop, .info-philosophy {
   margin: 50px auto;
 }
 
@@ -33,7 +34,12 @@ body {
   color: #333300;
 }
 
-/* @SECTION HEADINGS */
+body a {
+  text-decoration: none;
+  color: #333300;
+}
+
+/* HEADINGS */
 h1, h2 {
   font-family: "Libre+Baskerville", Georgia, Palatino, serif;
   font-weight: 400;
@@ -92,15 +98,8 @@ h2 {
   text-transform: uppercase;
 }
 
-a {
-  text-decoration: none;
-  color: #333300;
-}
-
-.phil-column-02 h2 {
+.shop-box a {
   font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
-  text-align: inherit;
-  text-transform: none;
 }
 
 /**
@@ -378,12 +377,33 @@ a {
   background-size: cover;
 }
 
-.shop-box {
+.shop-box-img {
   width: 100%;
+  border: solid #333300 1px;
 }
 
-.info-philosophy {
-  background-color: #ff6666;
+.shop-box {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.shop-box img {
+  z-index: 0;
+  /* 0-5 最背面-最前面 */
+  margin: 0;
+  padding: 0;
+}
+
+.shop-box-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  /* 0-5 最背面-最前面 */
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .info-blog {
