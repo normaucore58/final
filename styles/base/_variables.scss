@@ -8,8 +8,19 @@ $sans-serif: 'Quicksand', Helvetica Neue, Helvetica, Arial, sans-serif;
 //   padding: 50px 0;
 // }
 
-.info-shop {
+.info-philosophy, .info-blog {
+  text-align: center;
+}
+
+.title-shop, .title-philosophy, .philosophy-subtitle, .title-blog {
   margin: 50px auto;
+}
+
+.title-shop, .title-philosophy, .title-blog {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
 li {

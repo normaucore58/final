@@ -12,8 +12,17 @@
 
 /* VARIABLES */
 /* 1rem = 16px */
-.info-shop, .info-philosophy {
+.info-philosophy, .info-blog {
+  text-align: center;
+}
+
+.title-shop, .title-philosophy, .philosophy-subtitle, .title-blog {
   margin: 50px auto;
+}
+
+.title-shop h1, .title-philosophy h1, .title-blog h1 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 li {
@@ -93,13 +102,32 @@ h2 {
 }
 
 /* SHOP SECTION */
-.info-shop h1, .info-philosophy h1, .info-blog h1, .info-contact h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .shop-box a {
   font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* PHILOSOPHY SECTION */
+.info-philosophy h2 {
+  font-weight: 700;
+}
+
+.info-philosophy h2, .info-philosophy li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* BLOG SECTION */
+.blog-nav li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.loadmore {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 20px;
 }
 
 /**
@@ -390,7 +418,7 @@ h2 {
 }
 
 .shop-box img {
-  z-index: 0;
+  z-index: 1;
   /* 0-5 最背面-最前面 */
   margin: 0;
   padding: 0;
@@ -400,20 +428,34 @@ h2 {
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: 1;
+  z-index: 2;
   /* 0-5 最背面-最前面 */
   padding: 10px;
   margin: 0 auto;
 }
 
-.info-blog {
-  background-color: #ff3333;
-  text-align: center;
+.philosophy-list, .philosophy-list-last {
+  padding: 20px;
+  border: solid #333300 1px;
+  width: 100%;
+}
+
+.philosophy-list {
+  margin-bottom: 20px;
+}
+
+.phil-img {
+  width: 100%;
+}
+
+.blog-img {
+  width: 100%;
 }
 
 .blog-nav {
-  display: table;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .blog-nav li {

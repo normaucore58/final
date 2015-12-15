@@ -20,7 +20,7 @@
     padding:0;
 }
 .shop-box img {
-    z-index:0; /* 0-5 最背面-最前面 */
+    z-index:1; /* 0-5 最背面-最前面 */
     margin:0;
     padding:0;
 }
@@ -29,7 +29,7 @@
     position:absolute;
     top:0px;
     left:0px;
-    z-index:1; /* 0-5 最背面-最前面 */
+    z-index:2; /* 0-5 最背面-最前面 */
     padding:10px;
     margin:0 auto;
 }
