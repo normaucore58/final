@@ -1,28 +1,29 @@
 .intro {
-  padding-top: 180px;
+  width: auto;
   height: 520px;
   background: url("../images/intro-bg.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
-.container-intro {
-  width: 48%;
+.intro-content {
+  width: 100%;
+  padding-top: 180px;
+}
+
+.message, .lang-switch {
+  width: 50%;
   margin: auto;
-}
-
-.intro {
-  h1, p {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-}
-
-.lang-switch {
   text-align:center;
 }
 
-.lang-switch a {
-  text-decoration: none;
+.message {
+  h1, p {
+    margin-bottom: 30px;
+  }
+}
+
+.lang-switch ul {
+  display:inline-block;
 }
 
 .lang-switch li {
@@ -30,9 +31,10 @@
   list-style: none;
 }
 
-.lang-switch ul {
-  display:inline-block;
-}
 .lang-switch li + li {
   margin-left:20px;
+}
+
+.lang-switch a {
+  text-decoration: none;
 }
