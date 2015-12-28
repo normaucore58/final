@@ -410,13 +410,6 @@ h2 {
   border: solid #333300 1px;
 }
 
-.shop-box {
-  position: relative;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
 .shop-box img {
   z-index: 1;
   /* 0-5 最背面-最前面 */
@@ -454,7 +447,6 @@ h2 {
 
 .blog-nav {
   width: 100%;
-  text-align: center;
   margin-bottom: 20px;
 }
 
