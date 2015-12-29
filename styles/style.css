@@ -363,6 +363,11 @@ h2 {
   float: left;
 }
 
+.mainnav a:hover, .subnav a:hover {
+  color: #ff9900;
+  font-weight: 700;
+}
+
 .mainnav ul {
   display: inline-block;
 }
@@ -439,6 +444,10 @@ h2 {
 
 .phil-img {
   width: 100%;
+}
+
+.info-philosophy a:hover {
+  font-weight: 700;
 }
 
 .blog-img {
